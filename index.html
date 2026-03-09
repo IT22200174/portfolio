@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visal Kasun - Network Engineer</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Lenis Smooth Scroll -->
+    <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script> 
+</head>
+<body>
+
+    <!-- Particle Background -->
+    <canvas id="network-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-brand"><span class="highlight">VK</span> Network.Sec</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- 1️⃣ Hero Section -->
+    <section id="home" class="hero fade-in">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Visal Kasun – Network Engineer">Visal Kasun – Network Engineer</h1>
+            <div class="typing-container">
+                <span id="typing-text"></span><span class="cursor">&nbsp;</span>
+            </div>
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary glow-effect">Contact Me <i class="fas fa-paper-plane"></i></a>
+                <a href="#" class="btn btn-secondary glow-effect">Download CV <i class="fas fa-download"></i></a>
+            </div>
+        </div>
+        <div class="hero-profile">
+            <!-- Profile Image Placeholder -->
+            <div class="image-wrapper glow-border">
+                <img src="images/profile.jpg" alt="Visal Kasun - Profile" id="profile-img" onerror="this.src='https://via.placeholder.com/300x300/0f111a/00f3ff?text=VK'">
+            </div>
+            <div class="floating-icons">
+                <i class="fas fa-network-wired float-icon-1"></i>
+                <i class="fas fa-server float-icon-2"></i>
+                <i class="fas fa-shield-halved float-icon-3"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2️⃣ About Me Section -->
+    <section id="about" class="about section-padding fade-in">
+        <h2 class="section-title">About <span class="highlight">Me</span></h2>
+        <div class="about-container">
+            <div class="about-text glass-card">
+                <p>I am an undergraduate specializing in Computer Systems and Network Engineering at SLIIT. I am passionate about designing secure, scalable network infrastructures and working with modern networking technologies including routing protocols, network monitoring, automation, and cloud platforms.</p>
+                <div class="quick-info">
+                    <p><i class="fas fa-envelope"></i> visalvidura@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +94 766911540</p>
+                    <p><i class="fab fa-linkedin"></i> linkedin.com/in/visalkasunananda</p>
+                </div>
+            </div>
+            <div class="about-stats glass-card">
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span>Network Design</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress-line"><span class="progress" data-width="90%"></span></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span>Routing & Switching</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress-line"><span class="progress" data-width="85%"></span></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span>System Administration</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="progress-line"><span class="progress" data-width="80%"></span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3️⃣ Skills Section -->
+    <section id="skills" class="skills section-padding fade-in">
+        <h2 class="section-title">Tech <span class="highlight">Arsenal</span></h2>
+        <div class="skills-grid">
+            
+            <!-- Networking Skills -->
+            <div class="skill-category glass-card hover-glow">
+                <h3><i class="fas fa-project-diagram"></i> Networking</h3>
+                <ul class="skill-tags">
+                    <li>TCP/IP</li>
+                    <li>OSI Model</li>
+                    <li>Routing (RIP, OSPF, EIGRP, BGP)</li>
+                    <li>VLAN / STP / VTP</li>
+                    <li>NAT / PAT</li>
+                    <li>MPLS</li>
+                    <li>VPN / Firewall</li>
+                    <li>Network Security</li>
+                    <li>Subnetting & VLSM</li>
+                </ul>
+            </div>
+
+            <!-- Tools & Technologies -->
+            <div class="skill-category glass-card hover-glow">
+                <h3><i class="fas fa-tools"></i> Tools & Cloud</h3>
+                <ul class="skill-tags">
+                    <li>Cisco Routers & Switches</li>
+                    <li>Linux</li>
+                    <li>Nagios Monitoring</li>
+                    <li>Oracle 12c</li>
+                    <li>Docker</li>
+                    <li>Kubernetes</li>
+                    <li>Terraform</li>
+                    <li>Ansible</li>
+                    <li>AWS</li>
+                    <li>Git / Jenkins</li>
+                </ul>
+            </div>
+
+            <!-- Programming -->
+            <div class="skill-category glass-card hover-glow">
+                <h3><i class="fas fa-code"></i> Programming</h3>
+                <ul class="skill-tags">
+                    <li>Python</li>
+                    <li>C / C++</li>
+                    <li>Java</li>
+                    <li>Assembly</li>
+                    <li>Socket Programming</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 4️⃣ Experience Section -->
+    <section id="experience" class="experience section-padding fade-in">
+        <h2 class="section-title">Professional <span class="highlight">Experience</span></h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot glow-effect"></div>
+                <div class="timeline-content glass-card hover-glow">
+                    <h3>Network Engineering Intern</h3>
+                    <h4>Sri Lanka Telecom PLC</h4>
+                    <span class="timeline-date"><i class="far fa-calendar-alt"></i> Aug 2024 – Feb 2025</span>
+                    <ul class="experience-list">
+                        <li>Switching & Transmission systems</li>
+                        <li>ADSL, LTE, FTTH, CDMA, PSTN</li>
+                        <li>SD-WAN implementation</li>
+                        <li>Network infrastructure optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5️⃣ Projects Section -->
+    <section id="projects" class="projects section-padding fade-in">
+        <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+        <div class="projects-grid">
+            
+            <div class="project-card glass-card hover-glow">
+                <div class="project-icon"><i class="fas fa-network-wired"></i></div>
+                <h3>Nagios Monitoring & DNS Caching</h3>
+                <p>Configured Nagios monitoring with CentOS server and Fedora clients utilizing robust DNS caching mechanisms.</p>
+                <div class="project-tags">
+                    <span>CentOS</span><span>Nagios</span><span>DNS</span>
+                </div>
+            </div>
+
+            <div class="project-card glass-card hover-glow">
+                <div class="project-icon"><i class="fas fa-robot"></i></div>
+                <h3>Automated Garbage Collection Vehicle</h3>
+                <p>Developed an automated robotic vehicle utilizing various sensors and Arduino microcontrollers.</p>
+                <div class="project-tags">
+                    <span>Arduino</span><span>Robotics</span><span>Sensors</span>
+                </div>
+            </div>
+
+            <div class="project-card glass-card hover-glow">
+                <div class="project-icon"><i class="fas fa-exchange-alt"></i></div>
+                <h3>Torrent File Exchange Simulation</h3>
+                <p>Built a robust socket programming system capable of handling 100+ concurrent clients with TCP/IP protocol.</p>
+                <div class="project-tags">
+                    <span>C/C++</span><span>Sockets</span><span>TCP/IP</span>
+                </div>
+            </div>
+
+            <div class="project-card glass-card hover-glow">
+                <div class="project-icon"><i class="fas fa-microchip"></i></div>
+                <h3>Smart Farmhouse IoT System</h3>
+                <p>Designed a comprehensive IoT system using ESP32, GSM, Arduino, and sensors with remote mobile monitoring capabilities.</p>
+                <div class="project-tags">
+                    <span>IoT</span><span>ESP32</span><span>GSM</span>
+                </div>
+            </div>
+
+            <div class="project-card glass-card hover-glow">
+                <div class="project-icon"><i class="fas fa-sitemap"></i></div>
+                <h3>University Network Design</h3>
+                <p>Designed an enterprise network architecture utilizing Core, Distribution, and Access layers along with VLSM IP addressing.</p>
+                <div class="project-tags">
+                    <span>Cisco</span><span>VLSM</span><span>Design</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 6️⃣ Education Section -->
+    <section id="education" class="education section-padding fade-in">
+        <h2 class="section-title">Academic <span class="highlight">Background</span></h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot glow-effect"></div>
+                <div class="timeline-content glass-card hover-glow">
+                    <h3>BSc (Hons) Information Technology</h3>
+                    <h4>Specializing in Computer Systems & Network Engineering</h4>
+                    <p class="institution">Sri Lanka Institute of Information Technology (SLIIT)</p>
+                    <span class="timeline-date"><i class="far fa-calendar-alt"></i> 2022 – 2026</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7️⃣ Contact Section -->
+    <section id="contact" class="contact section-padding fade-in">
+        <h2 class="section-title">Initiate <span class="highlight">Connection</span></h2>
+        <div class="contact-container">
+            
+            <div class="contact-info glass-card">
+                <h3>Contact Information</h3>
+                <p>Ready to deploy secure, scalable networks? Send a ping.</p>
+                <div class="info-item hover-glow">
+                    <i class="fas fa-envelope glow-text"></i>
+                    <a href="mailto:visalvidura@gmail.com">visalvidura@gmail.com</a>
+                </div>
+                <div class="info-item hover-glow">
+                    <i class="fab fa-linkedin glow-text"></i>
+                    <a href="https://www.linkedin.com/in/visalkasunananda" target="_blank">linkedin.com/in/visalkasunananda</a>
+                </div>
+                <div class="info-item hover-glow">
+                    <i class="fas fa-phone glow-text"></i>
+                    <a href="tel:+94766911540">+94 766911540</a>
+                </div>
+            </div>
+
+            <form id="contact-form" class="contact-form glass-card">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="john@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Enter transmission data here..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary glow-effect">Send Transmission <i class="fas fa-satellite-dish"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 8️⃣ Footer -->
+    <footer>
+        <div class="footer-content">
+            <h3 class="glow-text">Visal Kasun</h3>
+            <p>"Building Scalable and Secure Networks"</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/visalkasunananda" target="_blank" class="glow-effect"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:visalvidura@gmail.com" class="glow-effect"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Visal Kasun. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
